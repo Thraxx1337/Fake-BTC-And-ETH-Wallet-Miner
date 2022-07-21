@@ -8,6 +8,6 @@
 
 Feel free to ask my any questions if you need help.
 
-Discord sever: https://discord.gg/terChetBN7
+Discord sever: https://discord.gg/49YAGUEcMf
 Discord user: Thraxx#1402
 
