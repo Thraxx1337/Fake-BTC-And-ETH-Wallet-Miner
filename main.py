@@ -7,7 +7,7 @@ init()
 
 import os
 from os import system
-system("title " + "Fake BTC Or ETH Wallet Miner,   Made By Thraxx#1402,   Discord: https://discord.gg/terChetBN7") #title
+system("title " + "Fake BTC Or ETH Wallet Miner,   Made By Thraxx#1402,   Discord: https://discord.gg/49YAGUEcMf") #title
 
 wa = input(Fore.MAGENTA + "Enter your address: ")
 time.sleep(1)
