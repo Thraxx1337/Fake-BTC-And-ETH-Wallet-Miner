@@ -7,7 +7,7 @@ init()
 
 import os
 from os import system
-system("title " + "Fake BTC Or ETH Wallet Miner,   Made By Thraxx#1402,   Discord: https://discord.gg/49YAGUEcMf") #title
+system("title " + "Fake BTC Or ETH Wallet Miner,   Made By Thraxx#1402,   Discord: https://discord.gg/terChetBN7") #title
 
 wa = input(Fore.MAGENTA + "Enter your address: ")
 time.sleep(1)
@@ -24,18 +24,16 @@ def Eth_Btc():
     def id_gen(size = 35, chr = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.ascii_letters):
         return "".join(random.choice(chr) for _ in range(size))
 
-    ae = ['0.000537', '0.008735', '0.000046', '0.001755', '0.028934', '0.000005', '0.054482', '0.173846', '0.000286', '0.008463', '0.000007', '0.009324'] #diffrent ammounts to get
-
     luck = 0
     
     init()
     if (BE == "ETH"):
         while True:
             if (luck > random.randint(100000, 100000)): #chance of getting vaild
-                aer = random.choice(ae)
-                print(Fore.GREEN + "[+] " + "0X" + id_gen() + " |  Vaild  | " + "+ " + aer + " ETH")
+                ae = str(random.uniform(0.000001, 1))
+                print(Fore.GREEN + "[+] " + "0X" + id_gen() + " |  Vaild  | " + "+ " + ae + " ETH")
                 time.sleep(1)
-                print("Transfeing the " + aer + "ETH to " + wa)
+                print("Transfeing the " + ae + " ETH to " + wa)
                 luck = 0
                 time.sleep(2)
                 print("Proceeding")
@@ -48,11 +46,11 @@ def Eth_Btc():
     init()
     if (BE == "BTC"):
         while True:
-            if (luck > random.randint(100000, 1000000)):
-                aer = random.choice(ae)
-                print(Fore.GREEN + "[+] " + "0X" + id_gen() + " |  Vaild  | " + "+ " + aer + " BTC")
+            if (luck > random.randint(100000, 100000)):
+                ae = str(random.uniform(0.000001, 1))
+                print(Fore.GREEN + "[+] " + "0X" + id_gen() + " |  Vaild  | " + "+ " + ae + " BTC")
                 time.sleep(1)
-                print("Transfeing the " + aer + "BTC to " + wa)
+                print("Transfeing the " + ae + " BTC to " + wa)
                 luck = 0
                 time.sleep(2)
                 print("Proceeding")
